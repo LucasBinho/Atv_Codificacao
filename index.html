@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passinho do Romano</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <h1>Codificador de Mensagens:</h1>
+    <div id="box">
+        <form>
+            <label for="texto">Digite o texto a ser codificado ou decodificado:</label><br>
+            <input id="texto" type="text"> <br> <br>
+            <div id="codificacao">
+                <label for="cesar">Tipo de codificação:</label> <br>
+                <input type="radio" name="cifra" id="cesar">Cifra de César
+                <input type="radio" name="cifra" id="base">Base64 <br> <br>
+            </div>
+            <div id="deslocamento">
+
+            </div>
+            <input name="radio" type="radio" id="radio" class="codificar">Codificar  
+            <input name="radio" type="radio" id="radio" class="decodificar">Decodificar <br> <br>
+            <div id="botao">
+
+            </div>
+            <div id="resposta">
+
+            </div>
+        </form>
+    </div>
+    <footer>
+        <section class="createdBy">
+            Criado por Lucas Passos
+            <i class='bx bx-registered'></i>
+        </section>
+        <section class="socialMedia">
+            <a target="_blank" href="https://www.linkedin.com/in/lucas--passos/"><i class='bx bxl-linkedin-square bx-xs' class="linkedin"></i></a>
+            <a target="_blank" href="https://github.com/LucasBinho"><i class='bx bxl-github bx-xs' class="github"></i></a>
+        </section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

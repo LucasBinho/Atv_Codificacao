@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 600px;
+    background-image: url(./codificacao.jpg);
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+#box {
+    padding: 5rem;
+    border-width: 0.5rem;
+    background-color: rgb(212, 202, 202);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;  
+}
+
+
+button {
+    width: 10rem;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset 0 0 1em green, 0 0 1em black;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    max-height: 40px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.socialMedia {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: whitesmoke;
+}
